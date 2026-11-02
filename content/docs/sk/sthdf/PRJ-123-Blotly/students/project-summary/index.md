@@ -37,6 +37,7 @@ author: "Viliam Vachan"
 # Zoznam autorov – generuje skript
 authors:
   - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -137,17 +138,17 @@ fm_reserved2: ""
 
 ## 🔖 Identifikácia
 ## 1️⃣ Názov projektu
-- **Názov projektu:** `PRJ_123_Blotly_<ST_XXX>` *(TODO – doplniť ST ID členov tímu)*
+- **Názov projektu:** `PRJ_123_Blotly_ST039_ST048`
 - **Stručný popis:** **Blotly** je otvorený merač mastnoty vlasov a pokožky hlavy. Zmatňujúci papierik nasaje maz, LED ho presvieti a svetelný senzor zmeria, koľko svetla prešlo. Výsledok sa zobrazí na OLED displeji. Skrinku a odberník si používateľ vytlačí na 3D tlačiarni.
 
 ## 2️⃣ Členovia tímu
 
 | ST ID | Meno | Rola v tíme | Kompetencie |
 |-------|------|-------------|-------------|
-| TODO | Viliam Vachan | Project Lead / vývoj | 3D modelovanie, hardvér, dokumentácia |
-| TODO | TODO | TODO | TODO |
+| ST039 | Tomáš Majerník | TODO – rola | TODO |
+| ST048 | Viliam Vachan | TODO – rola (vývoj, 3D model, hardvér) | 3D modelovanie, hardvér, dokumentácia |
 
-*(Ak ide o individuálny projekt, ostatné riadky zmaž.)*
+*(Rozdelenie rolí a kompetencií doplniť spolu s Tomášom.)*
 
 ## 3️⃣ Motivácia tímu
 - Mastnotu vlasov dnes posudzujeme od oka, čo vedie k zbytočnému častému umývaniu alebo k nevhodnej starostlivosti.

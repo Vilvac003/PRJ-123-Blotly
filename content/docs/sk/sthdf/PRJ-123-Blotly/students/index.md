@@ -37,6 +37,7 @@ author: "Viliam Vachan"
 # Zoznam autorov – generuje skript
 authors:
   - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------

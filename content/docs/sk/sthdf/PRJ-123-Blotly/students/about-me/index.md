@@ -136,7 +136,7 @@ fm_reserved2: ""
 # 🙋 About Me
 
 ## 🔖 Základné informácie
-- **Meno a priezvisko:** Viliam Vachan
+- **Meno a priezvisko:** Viliam Vachan (ST048)
 - **GitHub profil:** [github.com/Vilvac003](https://github.com/Vilvac003)
 - **Kontaktný e-mail:** TODO – doplniť (školský alebo osobný)
 

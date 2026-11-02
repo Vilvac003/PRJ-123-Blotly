@@ -37,6 +37,7 @@ author: "Viliam Vachan"
 # Zoznam autorov – generuje skript
 authors:
   - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -154,8 +155,9 @@ Mastnotu vlasov posudzujeme od oka. Ľudia potom vlasy zbytočne často umývaj�
 - Variant pre kaderníctva/štúdiá s aplikáciou na sledovanie histórie meraní.
 
 ## 5. Tím
-- Viliam Vachan – vývoj, 3D model, hardvér
-- TODO – ďalší členovia a ich roly
+- **ST048 Viliam Vachan** – vývoj, 3D model, hardvér
+- **ST039 Tomáš Majerník** – TODO rola
+- TODO – prečo sme správny tím
 
 ## 6. Call to action
 - TODO – čo potrebujeme (testeri s rôznymi typmi vlasov, spätná väzba na návrh, prístup k referenčnému prístroju na kalibráciu)

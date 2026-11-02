@@ -24,20 +24,21 @@ guid: "e7e329f3-b919-40df-be97-2f8ce48416b3"
 dao: "sthdf"
 
 # Názov zápisu – dopĺňa používateľ
-title: "PRJ-123-Blotly – PRJ-123 Blotly"
+title: "PRJ-123 Blotly"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Blotly – otvorený merač mastnoty vlasov a pokožky hlavy"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -72,10 +73,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -84,7 +85,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -132,37 +133,19 @@ fm_reserved1: ""
 fm_reserved2: ""
 ---
 
-# 👥 Študenti – Dashboard
+# PRJ-123 — Overview
 
-V tejto sekcii sa nachádzajú študentské deliverables.
+![Blotly – Vlasy nehádajú. Meraj ich.](./img/blotly-banner.png)
 
-## 🔗 Navigácia
+**Blotly — Vlasy nehádajú. Meraj ich.**
 
-- **01 – About Me**  
-  → [01 – About Me](./students/deliverables/01_about-me.md)
-  
-- **02 – Knowledge Contribution (A2)**  
-  → [02 – Knowledge Contribution (A2)](./students/deliverables/02_knowledge-contribution.md)
+*Viliam Vachan (ST048), Tomáš Majerník (ST039)*
 
-- **03 – Project Summary**  
-  → [03 – Project Summary](./students/deliverables/03_project-summary.md)
+Blotly je otvorený merač mastnoty vlasov a pokožky hlavy. Zmatňujúci papierik nasaje maz, biela LED ho presvieti a svetelný senzor zmeria, koľko svetla prešlo. Čím mastnejší papierik, tým viac svetla, a výsledok sa zobrazí na OLED displeji. Skrinku aj odberník vzorky si môže každý vytlačiť na 3D tlačiarni a elektroniku zložiť z bežne dostupných súčiastok (orientačne ~30 €).
 
-- **04 – Project Outcomes**  
-  → [04 – Project Outcomes](./students/deliverables/04_project-outcomes.md)
-
-- **05 – Pitch Presentation**  
-  → [05 – Pitch Presentation](./students/deliverables/05_pitch_presentation.md)
-
-- **06 – Final Presentation**  
-  → [06 – Final Presentation](./students/deliverables/06_final_presentation.md)
-
-- **07 – Reflexia**  
-  → [07 – Reflexia](./students/deliverables/07_reflexia.md)
-
----
-
-## ℹ️ Poznámka
-Tento súbor je súčasťou *defaultného template* a zabezpečuje stabilitu sidebaru aj navigácie.
-
-## Navigácia
-- [↩️ Späť](../../index.md)
+- [Prezentácia / Slides](./presentation/index.md)
+- [Plagát projektu (PDF)](https://github.com/Vilvac003/PRJ-123-Blotly/blob/main/poster/blotly.pdf)
+- [SDLC – vývoj podľa fáz](./projects/sdlc/index.md)
+- [Študentské deliverables](./students/index.md)
+- [3D model a zdrojový kód](https://github.com/Vilvac003/PRJ-123-Blotly/tree/main/hardware)
+- [GitHub repozitár](https://github.com/Vilvac003/PRJ-123-Blotly)

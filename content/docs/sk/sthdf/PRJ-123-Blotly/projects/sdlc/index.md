@@ -26,17 +26,18 @@ dao: "sthdf"
 title: "sdlc"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Blotly – prehľad SDLC fáz"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -71,10 +72,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -135,23 +136,19 @@ fm_reserved2: ""
 
 # 🧭 Project Summary – SDLC v9 (Full Lifecycle)
 
-Tento priečinok obsahuje **9 etáp SDLC** – od požiadaviek po riadenie zmien.  
-Každá fáza má vlastný `index.md` so stručným opisom a úlohami.
+Vývoj **Blotly** podľa 9 etáp SDLC. Pri každej etape je uvedené, čo je hotové a čo ešte zostáva.
+
+| Etapa | Stav |
+|-------|------|
+| [1. Requirements](./01-Requirements/index.md) | ✅ spísané |
+| [2. Analysis](./02-Analysis/index.md) | ✅ porovnanie princípov |
+| [3. Design](./03-Design/index.md) | ✅ architektúra, 3D model |
+| [4. Implementation](./04-Implementation/index.md) | 🔄 model hotový, firmvér TODO |
+| [5. Testing](./05-Testing/index.md) | ⏳ naplánované |
+| [6. Deployment](./06-Deployment/index.md) | ⏳ TODO |
+| [7. Maintenance](./07-Maintenance/index.md) | 🔄 zoznam známych úprav |
+| [8. Documentation](./08-Documentation/index.md) | 🔄 rozpracované |
+| [9. Change Management](./09-ChangeManagement/index.md) | 🔄 záznam zmien |
 
 ---
-
-## 📂 Etapy SDLC
-
-1️⃣ [**Requirements**](./01-Requirements/index.md) – Zachytenie potrieb, cieľov a očakávaní používateľov.  
-2️⃣ [**Analysis**](./02-Analysis/index.md) – Analýza uskutočniteľnosti, rizík a alternatív riešenia.  
-3️⃣ [**Design**](./03-Design/index.md) – Návrh architektúry, dátového modelu a UI/UX.  
-4️⃣ [**Implementation**](./04-Implementation/index.md) – Realizácia návrhu – kód, konfigurácia, build pipeline.  
-5️⃣ [**Testing**](./05-Testing/index.md) – Overenie kvality – test cases, QA checklist, výsledky.  
-6️⃣ [**Deployment**](./06-Deployment/index.md) – Nasadenie riešenia, demo alebo prezentácia MVP.  
-7️⃣ [**Maintenance**](./07-Maintenance/index.md) – Údržba a drobné vylepšenia po nasadení.  
-8️⃣ [**Documentation**](./08-Documentation/index.md) – Používateľská a technická dokumentácia.  
-9️⃣ [**Change Management**](./09-ChangeManagement/index.md) – Riadenie zmien – Change Log, Impact Analysis, CR.
-
----
-
-**Navigation:** [🏠 Home](../index.md) · Otvor niektorú z podpriečinkov ↑
+**Navigation:** [🏠 Home](../../index.md)

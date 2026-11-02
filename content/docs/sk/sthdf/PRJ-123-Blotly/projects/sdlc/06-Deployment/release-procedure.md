@@ -26,17 +26,18 @@ dao: "sthdf"
 title: "release procedure"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Blotly – release-procedure"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -71,10 +72,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"

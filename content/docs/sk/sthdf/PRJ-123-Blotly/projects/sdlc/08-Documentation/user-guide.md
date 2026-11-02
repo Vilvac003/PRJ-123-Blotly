@@ -26,17 +26,18 @@ dao: "sthdf"
 title: "user guide"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Používateľská príručka"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -71,10 +72,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -133,9 +134,17 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: PRJ-123-Blotly -->
 
-# 📚 User Guide
+# 📘 User Guide
 
-Návod pre používateľa (inštalácia, používanie, FAQ).
+![Postup](../../../img/workflow.svg)
+
+1. **Pripravte papierik.** Do kazety vložte čistý zmatňujúci papierik.
+2. **Odoberte vzorku.** Odberníkom pritlačte kazetu na vlasy alebo pokožku hlavy.
+3. **Vložte kazetu.** Zasuňte ju do tunela na prednej strane.
+4. **Merajte.** Stlačte tlačidlo a počkajte na výsledok.
+5. **Prečítajte výsledok** na displeji.
+
+**Upozornenie:** Blotly je učebný prototyp a nenahrádza zdravotnícky prístroj.
 
 ---
 **Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)

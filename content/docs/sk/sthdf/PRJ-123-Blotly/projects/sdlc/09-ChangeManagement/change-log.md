@@ -26,17 +26,18 @@ dao: "sthdf"
 title: "change log"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Záznam zmien"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -71,10 +72,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -135,7 +136,12 @@ fm_reserved2: ""
 
 # 📝 Change Log
 
-Chronologický zoznam zmien (dátum, verzia, popis, autor).
+| Dátum | Zmena |
+|-------|-------|
+| 2026-09-20 | Prieskum princípov, výber optického merania |
+| 2026-09-28 | Prvá verzia 3D modelu (STL, GLB) |
+| 2026-10 | Výber súčiastok a dodávateľov |
+| 2026-11-02 | Založený repozitár, doplnená dokumentácia, plagát Blotly |
 
 ---
 **Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)

@@ -26,17 +26,18 @@ dao: "sthdf"
 title: "setup instructions"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Postup zostavenia Blotly"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -71,10 +72,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -135,7 +136,28 @@ fm_reserved2: ""
 
 # ⚙️ Setup Instructions
 
-Kroky na spustenie projektu lokálne (prerequisites, príkazy, env).
+## 1. Vygenerovanie modelov (voliteľné)
+```bash
+pip install manifold3d trimesh numpy
+python hardware/model.py
+```
+Hotové STL sú aj priamo v [`hardware/stl`](https://github.com/Vilvac003/PRJ-123-Blotly/tree/main/hardware/stl).
+
+## 2. Tlač
+- Materiál PLA alebo PETG, vrstva 0,2 mm.
+- `base_body` a `cassette` tlačte **čiernym** filamentom.
+- `base_body` tlačte hore nohami, `sampler_sleeve` čiapočkou nadol a `sampler_piston` pätou nadol.
+
+## 3. Zostavenie
+1. Vložte svetelný senzor do vrecka pod optickým tunelom a LED do vývrtu nad tunelom.
+2. Zapojte LED cez tranzistor podľa [schémy](../03-Design/architecture-diagram.md).
+3. Pripojte OLED a senzor na spoločnú I²C zbernicu.
+4. Osaďte tlačidlo a stavovú LED.
+5. Uzatvorte veko 4 skrutkami M3×8.
+6. Do odberníka vložte pružinu a zaistite piest čapom (skrutka M3).
+
+## 4. Firmvér
+TODO
 
 ---
 **Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)

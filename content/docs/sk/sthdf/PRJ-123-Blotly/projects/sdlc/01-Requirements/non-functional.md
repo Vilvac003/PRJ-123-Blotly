@@ -26,17 +26,18 @@ dao: "sthdf"
 title: "non functional"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Nefunkčné požiadavky na Blotly"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -71,10 +72,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -133,9 +134,17 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: PRJ-123-Blotly -->
 
-# 🔧 Non-Functional Requirements (NFR)
+# ⚙️ Non-functional Requirements
 
-Výkonnosť, bezpečnosť, dostupnosť, škálovanie.
+- **Cena:** diely orientačne do ~30 €.
+- **Dostupnosť:** súčiastky z bežných e-shopov (Techfun, LaskaKit, Ložiská ELM).
+- **Výroba:** skrinka sa dá vytlačiť na bežnej FDM tlačiarni z PLA alebo PETG.
+- **Svetlotesnosť:** okolité svetlo nesmie skresľovať meranie.
+- **Opakovateľnosť:** konštantný tlak odberníka a stabilný prúd LED.
+- **Napájanie:** USB-C.
+- **Otvorenosť:** model, kód a dokumentácia verejne v repozitári.
+- **Bezpečnosť:** s pokožkou prichádza do styku len papierik, nie elektronika.
+- **Obmedzenie:** nejde o zdravotnícky prístroj a nenahrádza klinické meranie.
 
 ---
 **Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)

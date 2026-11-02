@@ -26,17 +26,18 @@ dao: "sthdf"
 title: "feasibility study"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Štúdia uskutočniteľnosti Blotly"
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Viliam Vachan"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Viliam Vachan"
+  - "Tomáš Majerník"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -71,10 +72,10 @@ locale: "sk"
 created: "2026-11-02 16:50"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-11-02 16:50"
+modified: "2026-11-02 18:30"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +84,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Viliam Vachan, Tomáš Majerník"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -133,9 +134,30 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: PRJ-123-Blotly -->
 
-# 📈 Feasibility Study
+# 🧪 Feasibility Study
 
-Technická, ekonomická a organizačná uskutočniteľnosť.
+## Porovnanie princípov
+
+| Princíp | Náročnosť | Presnosť | Spotrebný materiál |
+|---------|-----------|----------|--------------------|
+| **Optický** (papierik + LED + senzor) | stredná | vysoká | áno |
+| Kapacitný / odporový | nízka | nízka až stredná, ruší ho pot | nie |
+| Kamerový + softvér | vysoká | stredná | nie |
+
+**Rozhodnutie:** optický princíp, rovnaký ako pri profesionálnom Sebumetri.
+
+## Orientačné náklady
+Optická verzia vychádza podľa prieskumu na približne 12 až 15 € za základné diely. S 3D tlačou, OLED displejom a ďalšími položkami spolu okolo ~30 €.
+
+## Riziká
+
+| Riziko | Dopad | Riešenie |
+|--------|-------|----------|
+| rozptýlené svetlo | skreslené meranie | čierna svetlotesná skrinka |
+| nestabilná LED | nepresné hodnoty | spínanie tranzistorom, rezistory |
+| rôzne papieriky | rôzna priepustnosť | referencia pre konkrétny typ |
+| nedostupnosť dielov | oneskorenie | náhradné zdroje, záložný ESP32 |
+| neznáma presnosť | nízka dôveryhodnosť | kalibrácia, porovnanie s referenciou |
 
 ---
 **Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)

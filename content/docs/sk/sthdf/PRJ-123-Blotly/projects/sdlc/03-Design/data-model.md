@@ -147,5 +147,7 @@ Blotly nepoužíva databázu. Pri jednom meraní vznikajú tieto údaje:
 
 Prahy a prepočet sa určia pri kalibrácii (TODO).
 
+![Business class diagram](../../../img/ea-business-class.png)
+
 ---
 **Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)

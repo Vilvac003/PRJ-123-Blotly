@@ -148,6 +148,18 @@ Mastnotu vlasov dnes posudzujeme od oka a profesionálne sebumetre (napr. Sebume
 
 ![Motivácia a hodnota](../img/motivation.svg)
 
+### Motivácia a business diagram
+
+Zainteresované strany, motivačné faktory, cieľ, požiadavky a business proces (ArchiMate, Enterprise Architect).
+
+![Business diagram](../img/ea-business.png)
+
+### Business class diagram
+
+Doménový model: používateľ, meranie, papierik, kazeta a zariadenie (UML trieda, Enterprise Architect).
+
+![Business class diagram](../img/ea-business-class.png)
+
 ## Súčiastky
 
 | Časť | Súčiastka | Orientačná cena |
@@ -185,9 +197,25 @@ Zvolili sme **optický princíp**, lebo je najbližšie profesionálnym prístro
 
 ![Princíp merania](../img/principle.svg)
 
+### Digitálne dvojča
+
+Digitálne dvojča tvorí parametrický 3D model, konfigurácia a namerané údaje. Z modelu sa generujú STL a GLB súbory, podľa ktorých sa vyrobí fyzické zariadenie.
+
+![Digitálne dvojča](../img/ea-digital-twin.png)
+
+### Technologický diagram
+
+Komponenty systému a ich rozhrania: ESP32-C3, I²C zbernica, senzor, displej, LED, tlačidlo a skrinka (ArchiMate).
+
+![Technologický diagram](../img/ea-technology.png)
+
 ### Architektúra
 
 ![Architektúra Blotly](../img/architecture.svg)
+
+Komponenty firmvéru a hardvéru (UML komponentový diagram):
+
+![Architektúra – komponenty](../img/ea-architecture.png)
 
 ESP32-C3 riadi všetko: cez I²C komunikuje so svetelným senzorom a OLED displejom, cez GPIO spína LED a číta tlačidlo. LED je spínaná tranzistorom 2N2222, aby svietila stabilne zo 5 V.
 
@@ -212,11 +240,16 @@ Všetky diely sú parametricky modelované v Pythone ([`hardware/model.py`](http
 
 - Zdrojový kód a modely sú v GitHub repozitári [https://github.com/Vilvac003/PRJ-123-Blotly](https://github.com/Vilvac003/PRJ-123-Blotly).
 - Dokumentácia je v Markdowne a publikuje sa cez Docusaurus.
+- Diagramy sú vytvorené v Enterprise Architect. Model je v súbore [`models/PRJ-123-Blotly.qea`](https://github.com/Vilvac003/PRJ-123-Blotly/blob/main/models/PRJ-123-Blotly.qea).
 - 3D model je generovaný skriptom, takže zmena rozmeru sa premietne do všetkých dielov.
 
 ## Používateľská príručka
 
 ![Postup používania](../img/workflow.svg)
+
+Postup merania ako aktivitný diagram:
+
+![Aktivitný diagram](../img/ea-activity.png)
 
 1. Papierik v kazete pritlačte odberníkom na vlasy alebo pokožku hlavy.
 2. Kazetu vsuňte do tunela v Blotly.

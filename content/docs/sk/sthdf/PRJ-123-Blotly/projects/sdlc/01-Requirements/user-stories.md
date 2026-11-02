@@ -144,5 +144,9 @@ fm_reserved2: ""
 | kutil / študent | postaviť zariadenie z lacných dielov | sa pri tom niečo naučil |
 | tvorca | mať otvorený návod, modely a kód | som mohol Blotly vylepšovať |
 
+## Use case diagram
+
+![Use case diagram](../../../img/ea-usecase.png)
+
 ---
 **Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)

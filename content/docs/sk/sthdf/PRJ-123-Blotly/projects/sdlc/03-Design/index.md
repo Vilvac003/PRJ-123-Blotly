@@ -140,6 +140,12 @@ fm_reserved2: ""
 - [Návrh obrazoviek displeja](./ui-mockups.md)
 - [Dátový model merania](./data-model.md)
 
+## Diagramy z Enterprise Architect
+
+![Business diagram](../../../img/ea-business.png)
+
+![Technologický diagram](../../../img/ea-technology.png)
+
 ![Rozložený model](../../../img/blotly-exploded.png)
 
 ---

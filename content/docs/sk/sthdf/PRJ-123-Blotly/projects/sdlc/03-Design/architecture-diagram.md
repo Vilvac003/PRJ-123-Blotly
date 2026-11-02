@@ -138,6 +138,14 @@ fm_reserved2: ""
 
 ![Architektúra](../../../img/architecture.svg)
 
+## Komponenty (Enterprise Architect)
+
+![Komponenty](../../../img/ea-architecture.png)
+
+## Digitálne dvojča
+
+![Digitálne dvojča](../../../img/ea-digital-twin.png)
+
 ## Zapojenie bielej LED
 
 ![Spínanie LED](../../../img/led-driver.svg)

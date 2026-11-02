@@ -144,6 +144,8 @@ fm_reserved2: ""
 4. **Merajte.** Stlačte tlačidlo a počkajte na výsledok.
 5. **Prečítajte výsledok** na displeji.
 
+![Aktivitný diagram](../../../img/ea-activity.png)
+
 **Upozornenie:** Blotly je učebný prototyp a nenahrádza zdravotnícky prístroj.
 
 ---
